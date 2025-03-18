@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333333; /* Dark gray for body text */
+  background-color: #ffffff; /* White background */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #B2DFDB; /* Pastel Green */
+  color: #212121; /* Soft black for text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px* Adjust the height as needed */
+  margin-right: 15px; /* Space between logo and text */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #212121; /* Soft black for text */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #212121; /* Soft black for text */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #00796B; /* Darker green for hover */
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('hero-image.jpg'); /* Add a relevant image */
+  background-size: cover;
+  background-position: center;
+  color: #212121; /* Soft black for text */
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #80CBC4; /* Soft Pastel Green */
+  color: #212121; /* Soft black for text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #4DB6AC; /* Slightly darker pastel green */
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+  background-color: #F5F5F5; /* Light Pastel Gray */
+}
+
+.section h2 {
+  color: #00796B; /* Darker Pastel Green */
+  margin-bottom: 20px;
+}
+
+.section p, .section ul {
+  font-size: 1.1rem;
+  color: #333333; /* Dark gray for readability */
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* About Section */
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about-box {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: 300px;
+  text-align: center;
+}
+
+.about-box h3 {
+  color: #00796B; /* Darker Pastel Green */
+  margin-bottom: 15px;
+}
+
+.about-box p {
+  color: #333333; /* Dark gray for readability */
+  font-size: 1rem;
+}
+
+/* Services Section */
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-item {
+  text-align: center;
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: 300px;
+}
+
+.service-item i {
+  font-size: 2rem;
+  color: #00796B; /* Darker Pastel Green */
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1.1rem;
+  color: #333333; /* Dark gray for readability */
+}
+
+/* Testimonials Section */
+.testimonial {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #333333; /* Dark gray for readability */
+}
+
+.testimonial .author {
+  text-align: right;
+  font-weight: bold;
+  color: #00796B; /* Darker Pastel Green */
+}
+
+/* Contact Section */
+#contact {
+  background-color: #E0F2F1; /* Light Pastel Blue */
+  padding: 40px 0;
+}
+
+#contact p {
+  margin: 10px 0;
+  color: #333333; /* Dark gray for readability */
+}
+
+#contact-form {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #00796B; /* Darker Pastel Green */
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #B2DFDB; /* Pastel Green */
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  background-color: #80CBC4; /* Soft Pastel Green */
+  color: #212121; /* Soft black for text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.whatsapp-link:hover {
+  background-color: #4DB6AC; /* Slightly darker pastel green */
+}
+
+/* Footer */
+footer {
+  background-color: #B2DFDB; /* Pastel Green */
+  color: #212121; /* Soft black for text */
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
